@@ -1,0 +1,17 @@
+
+    <ion-tabs>
+      <ion-tab-bar slot="bottom" [ngClass]="{'ocultar': !loggedIn }">
+        <ion-tab-button tab="inicio" routerLinkActive="highlight">
+          <ion-label>Inicio</ion-label>
+          <ion-icon name="home-outline"></ion-icon>
+        </ion-tab-button>
+        <ion-tab-button tab="buscar" routerLinkActive="highlight">
+          <ion-label>Buscar</ion-label>
+          <ion-icon name="search-outline"></ion-icon>
+        </ion-tab-button>
+        <ion-tab-button tab="libreria" routerLinkActive="highlight">
+          <ion-label>Mi Librería</ion-label>
+          <ion-icon name="library-outline"></ion-icon>
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>

@@ -1,0 +1,14 @@
+
+ion-button {
+    width: 75%;
+    margin: 10px auto;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.izquierda {
+    text-align: left;
+}
+
